@@ -1,0 +1,56 @@
+.course{
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+}
+.course-head img{
+    border: 2px solid gray;
+}
+.course-name{
+    color: rgb(251, 125, 22);
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.7s ease;
+    text-align: center;
+}
+.course-name:hover{
+    color: rgb(24, 159, 172);
+}
+.enrolled-students{
+    color: rgb(124, 123, 123);
+    text-align: right;
+}
+.course-head ul{
+    list-style: none;
+}
+.course-head ul li, .fontIcon{
+    float: left;
+    color: rgb(235, 116, 18);
+    text-align: left;
+}
+.Opportunity, .instructor{
+    color: gray;
+    padding: 3px;
+}
+.course-details h1{
+    color: rgb(24, 159, 172);
+    font-weight: 900;
+}
+.enroll-button{
+    background-color: rgb(24, 159, 172);
+    padding: 8px 20px;
+    color: white;
+    border: 3px solid rgb(24, 159, 172);
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+.enroll-button:focus{
+    outline: none;
+}
+.enroll-button:hover{
+    background: none;
+    color: black;
+}
